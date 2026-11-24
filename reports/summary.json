@@ -1,0 +1,485 @@
+{
+  "generated_at": "2026-11-21T11:18:54+00:00",
+  "pipeline_version": "1.0.0",
+  "device": "cpu",
+  "files_total": 15,
+  "files_processed": 13,
+  "files_flagged_unprocessable": 2,
+  "risk_counts": {
+    "HIGH": 8,
+    "MEDIUM": 1,
+    "LOW": 4,
+    "UNPROCESSABLE": 2
+  },
+  "documents": [
+    {
+      "document_id": "pitch_01.mp4",
+      "status": "OK",
+      "modality": "speech",
+      "total_integrity_risk": "HIGH",
+      "peer_similarity_percentage": 87.1,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": null,
+      "top_peer_match": "submission_05.pdf",
+      "warnings": []
+    },
+    {
+      "document_id": "pitch_02.mp4",
+      "status": "OK",
+      "modality": "speech",
+      "total_integrity_risk": "HIGH",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 86.2,
+      "ai_generated_probability": null,
+      "top_peer_match": null,
+      "warnings": []
+    },
+    {
+      "document_id": "pitch_03.mp4",
+      "status": "NO_AUDIO_TRACK",
+      "modality": "speech",
+      "total_integrity_risk": "UNPROCESSABLE",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null,
+      "top_peer_match": null,
+      "warnings": [
+        "Video has no audio track; nothing to transcribe. The file was flagged and skipped."
+      ]
+    },
+    {
+      "document_id": "submission_01.pdf",
+      "status": "OK",
+      "modality": "text",
+      "total_integrity_risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 4.8,
+      "top_peer_match": "submission_02.docx",
+      "warnings": []
+    },
+    {
+      "document_id": "submission_02.docx",
+      "status": "OK",
+      "modality": "text",
+      "total_integrity_risk": "HIGH",
+      "peer_similarity_percentage": 100.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 4.8,
+      "top_peer_match": "submission_01.pdf",
+      "warnings": []
+    },
+    {
+      "document_id": "submission_03.docx",
+      "status": "OK",
+      "modality": "text",
+      "total_integrity_risk": "HIGH",
+      "peer_similarity_percentage": 81.4,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 7.8,
+      "top_peer_match": "submission_04.docx",
+      "warnings": []
+    },
+    {
+      "document_id": "submission_04.docx",
+      "status": "OK",
+      "modality": "text",
+      "total_integrity_risk": "HIGH",
+      "peer_similarity_percentage": 81.5,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 4.0,
+      "top_peer_match": "submission_03.docx",
+      "warnings": []
+    },
+    {
+      "document_id": "submission_05.pdf",
+      "status": "OK",
+      "modality": "text",
+      "total_integrity_risk": "MEDIUM",
+      "peer_similarity_percentage": 22.7,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 8.8,
+      "top_peer_match": "pitch_01.mp4",
+      "warnings": []
+    },
+    {
+      "document_id": "submission_06.pdf",
+      "status": "OK",
+      "modality": "text",
+      "total_integrity_risk": "HIGH",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 93.0,
+      "top_peer_match": null,
+      "warnings": []
+    },
+    {
+      "document_id": "submission_07.pdf",
+      "status": "OK",
+      "modality": "text",
+      "total_integrity_risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 4.1,
+      "top_peer_match": null,
+      "warnings": []
+    },
+    {
+      "document_id": "submission_08.docx",
+      "status": "OK",
+      "modality": "text",
+      "total_integrity_risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 16.8,
+      "top_peer_match": null,
+      "warnings": []
+    },
+    {
+      "document_id": "submission_09.pdf",
+      "status": "OK",
+      "modality": "text",
+      "total_integrity_risk": "HIGH",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 52.0,
+      "ai_generated_probability": 7.5,
+      "top_peer_match": null,
+      "warnings": []
+    },
+    {
+      "document_id": "submission_10.pdf",
+      "status": "OK",
+      "modality": "text",
+      "total_integrity_risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 4.0,
+      "top_peer_match": null,
+      "warnings": []
+    },
+    {
+      "document_id": "submission_11.docx",
+      "status": "OK",
+      "modality": "text",
+      "total_integrity_risk": "LOW",
+      "peer_similarity_percentage": 0.0,
+      "external_similarity_percentage": 0.0,
+      "ai_generated_probability": 12.6,
+      "top_peer_match": null,
+      "warnings": []
+    },
+    {
+      "document_id": "submission_12.pdf",
+      "status": "EMPTY_FILE",
+      "modality": "text",
+      "total_integrity_risk": "UNPROCESSABLE",
+      "peer_similarity_percentage": null,
+      "external_similarity_percentage": null,
+      "ai_generated_probability": null,
+      "top_peer_match": null,
+      "warnings": [
+        "File is empty (0 bytes); nothing to analyse."
+      ]
+    }
+  ],
+  "peer_coverage_matrix": {
+    "description": "matrix[i][j] = % of document i's assessed words matched in document j",
+    "labels": [
+      "P01",
+      "P02",
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11"
+    ],
+    "documents": [
+      "pitch_01.mp4",
+      "pitch_02.mp4",
+      "submission_01.pdf",
+      "submission_02.docx",
+      "submission_03.docx",
+      "submission_04.docx",
+      "submission_05.pdf",
+      "submission_06.pdf",
+      "submission_07.pdf",
+      "submission_08.docx",
+      "submission_09.pdf",
+      "submission_10.pdf",
+      "submission_11.docx"
+    ],
+    "values": [
+      [
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        87.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        null,
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        100.0,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        81.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        81.5,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        22.7,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null
+      ]
+    ]
+  },
+  "boilerplate": {
+    "threshold_documents": 3,
+    "sentences_flagged": 45,
+    "template_matches": 0
+  },
+  "timings_seconds": {
+    "extraction": 13.24,
+    "embedding_and_indexing": 16.92,
+    "reference_corpus": 0.47,
+    "matching": 0.1,
+    "ai_and_scoring": 32.27
+  },
+  "config": {
+    "models": {
+      "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+      "whisper": "base",
+      "whisper_compute_type": "int8",
+      "ai_perplexity": "openai-community/gpt2",
+      "ai_classifier": "Hello-SimpleAI/chatgpt-detector-roberta",
+      "device": "auto"
+    },
+    "asr": {
+      "beam_size": 5,
+      "vad_filter": true,
+      "no_speech_threshold": 0.6,
+      "log_prob_threshold": -1.0,
+      "min_words": 3
+    },
+    "chunking": {
+      "max_tokens": 200,
+      "overlap_sentences": 1,
+      "min_sentence_words": 6
+    },
+    "matching": {
+      "top_k": 10,
+      "sentence_threshold": 0.85,
+      "context_chunk_threshold": 0.85,
+      "context_sentence_threshold": 0.6,
+      "single_sentence_min_similarity": 0.9,
+      "lexical_rescue_cosine": 0.7,
+      "passage_gap": 1,
+      "verbatim_levenshtein": 0.9,
+      "near_verbatim_levenshtein": 0.7
+    },
+    "boilerplate": {
+      "enabled": true,
+      "similarity_threshold": 0.9,
+      "min_documents": 3,
+      "min_document_fraction": 0.1,
+      "template_file": null
+    },
+    "ai": {
+      "enabled": true,
+      "min_words": 80,
+      "max_tokens_per_window": 512,
+      "calibration_file": "integrity/resources/ai_calibration.json"
+    },
+    "risk": {
+      "high_similarity": 30.0,
+      "medium_similarity": 10.0,
+      "high_ai": 85.0,
+      "medium_ai": 60.0
+    },
+    "report": {
+      "max_matches_in_markdown": 8,
+      "max_passage_chars": 700
+    },
+    "reference_dir": "reference_corpus",
+    "cache_dir": ".cache"
+  }
+}

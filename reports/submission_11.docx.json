@@ -1,0 +1,118 @@
+{
+  "document_id": "submission_11.docx",
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 12.6
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "explanations": "No significant overlap with other submissions. No match with the external reference corpus. 147 words of shared template/boilerplate text (present in up to 5 submissions) were recognised and excluded from scoring. AI-generation likelihood is 12.6%. Risk LOW: no signal crossed a review threshold.",
+  "external_matches": [],
+  "boilerplate_passages": [
+    {
+      "text": "Kestrel Foods Ltd. is a fictional mid-sized manufacturer of packaged snacks headquartered in Pune, India.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Over the last three years its revenue grew by eleven percent a year, but its gross margin fell from 38 percent to 29 percent.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Prices of edible oil and potatoes rose sharply, modern-trade retailers demanded deeper discounts, and two venture-funded direct-to-consumer brands entered its core categories.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "The board is considering three options: integrating backward into contract farming, building its own direct-to-consumer channel, or consolidating its product range.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "First, diagnose the main drivers of the margin decline.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Second, evaluate the direct-to-consumer option against expansion in modern trade.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Third, recommend a three-year plan with clear milestones, key risks and the metrics the board should track.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Use the data pack provided, state every assumption you make, and justify each recommendation with numbers.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Limit your answer to 1,500 words and cite every source you use.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    }
+  ],
+  "ai_assessment": {
+    "probability": 12.6,
+    "status": "OK",
+    "assessed_words": 204,
+    "confidence": "normal",
+    "signals": {
+      "perplexity": 69.84,
+      "mean_token_nll": 4.246,
+      "burstiness": 0.757,
+      "classifier_probability": 0.9
+    },
+    "notes": []
+  },
+  "risk_reasons": [],
+  "processing": {
+    "status": "OK",
+    "file_type": "docx",
+    "modality": "text",
+    "pages": 2,
+    "duration_seconds": null,
+    "language": null,
+    "sentences": 29,
+    "chunks": 2,
+    "header_footer_lines_removed": 0,
+    "warnings": []
+  },
+  "score_details": {
+    "assessed_words": 200,
+    "boilerplate_words": 147,
+    "pair_coverage_percentage": {}
+  }
+}

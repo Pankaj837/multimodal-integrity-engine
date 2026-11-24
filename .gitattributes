@@ -1,0 +1,13 @@
+# Normalise text files to LF in the repository.
+* text=auto eol=lf
+
+# Binary formats must never be line-ending converted (reportlab PDFs look like
+# ASCII text to git's heuristic and would be corrupted by CRLF conversion).
+*.pdf  binary
+*.docx binary
+*.mp4  binary
+*.mov  binary
+*.wav  binary
+*.png  binary
+*.npy  binary
+*.faiss binary

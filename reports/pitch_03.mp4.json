@@ -1,0 +1,35 @@
+{
+  "document_id": "pitch_03.mp4",
+  "total_integrity_risk": "UNPROCESSABLE",
+  "scores": {
+    "peer_similarity_percentage": null,
+    "external_similarity_percentage": null,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "explanations": "File could not be analysed (NO_AUDIO_TRACK): Video has no audio track; nothing to transcribe. The file was flagged and skipped. No scores were computed.",
+  "external_matches": [],
+  "boilerplate_passages": [],
+  "ai_assessment": {},
+  "risk_reasons": [],
+  "processing": {
+    "status": "NO_AUDIO_TRACK",
+    "file_type": "mp4",
+    "modality": "speech",
+    "pages": null,
+    "duration_seconds": null,
+    "language": null,
+    "sentences": 0,
+    "chunks": 0,
+    "header_footer_lines_removed": 0,
+    "warnings": [
+      "Video has no audio track; nothing to transcribe. The file was flagged and skipped."
+    ]
+  },
+  "score_details": {
+    "assessed_words": 0,
+    "boilerplate_words": 0,
+    "pair_coverage_percentage": {}
+  }
+}

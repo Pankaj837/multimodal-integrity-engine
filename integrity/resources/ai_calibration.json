@@ -1,0 +1,62 @@
+{
+  "description": "Standardised logistic regression over detector features; see scripts/calibrate_ai.py",
+  "features": [
+    "classifier_logit",
+    "mean_nll",
+    "burstiness"
+  ],
+  "weights": [
+    2.280654,
+    0.144972,
+    -0.039824
+  ],
+  "bias": 0.137688,
+  "means": [
+    1.076034,
+    3.13101,
+    0.542924
+  ],
+  "stds": [
+    5.385813,
+    0.397065,
+    0.187477
+  ],
+  "benchmark": {
+    "human_samples": 26,
+    "ai_samples": 28,
+    "human_source": "Wikipedia revisions saved before 2022-11-01 (CC BY-SA 4.0)",
+    "ai_source": "LLM-generated paragraphs on the same topics (see ai_generated.jsonl)"
+  },
+  "single_feature_auc": {
+    "classifier_logit": 0.955,
+    "classifier_logit_direction": "higher=AI",
+    "mean_nll": 0.758,
+    "mean_nll_direction": "lower=AI",
+    "burstiness": 0.647,
+    "burstiness_direction": "lower=AI"
+  },
+  "classifier_alone_at_0.5": {
+    "roc_auc": 0.955,
+    "accuracy": 0.907,
+    "precision": 0.926,
+    "recall": 0.893,
+    "confusion_matrix": {
+      "tn": 24,
+      "fp": 2,
+      "fn": 3,
+      "tp": 25
+    }
+  },
+  "combined_leave_one_out": {
+    "roc_auc": 0.941,
+    "accuracy": 0.907,
+    "precision": 0.926,
+    "recall": 0.893,
+    "confusion_matrix": {
+      "tn": 24,
+      "fp": 2,
+      "fn": 3,
+      "tp": 25
+    }
+  }
+}

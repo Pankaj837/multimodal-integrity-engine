@@ -1,0 +1,670 @@
+{
+  "main": {
+    "pairs": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "tn": 75,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "pairs_evaluated": 78,
+      "false_positive_pairs": [],
+      "false_negative_pairs": []
+    },
+    "positive_pair_coverage": {
+      "submission_01.pdf | submission_02.docx": 100.0,
+      "submission_03.docx | submission_04.docx": 81.5,
+      "submission_05.pdf | pitch_01.mp4": 87.1
+    },
+    "documents": {
+      "Copying involvement (peer or external ≥ 10%)": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "tn": 5,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "misclassified": []
+      },
+      "External-source copying (external ≥ 10%)": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "tn": 11,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "misclassified": []
+      },
+      "AI-generated (AI probability ≥ 60%)": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "tn": 10,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "misclassified": []
+      },
+      "Overall risk ≥ MEDIUM vs any planted issue": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 0,
+        "tn": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "misclassified": []
+      }
+    }
+  },
+  "scenarios": [
+    {
+      "scenario": "1. Cross-modal duplication",
+      "passed": true,
+      "detail": "matched page(s) [2] (truth 2); detected 3.0-23.4s vs truth 3.0-23.4s (100% overlap); cosine 1.00"
+    },
+    {
+      "scenario": "2. Paraphrased content",
+      "passed": true,
+      "detail": "chunk cosine 0.893 (> 0.80) vs Jaccard 0.27, Levenshtein 0.46; 11 aligned sentences; peer 81.4%"
+    },
+    {
+      "scenario": "3. Corrupted / empty submissions",
+      "passed": true,
+      "detail": "statuses {'submission_12.pdf': 'EMPTY_FILE', 'pitch_03.mp4': 'NO_AUDIO_TRACK'}; all 13 other files analysed: True"
+    },
+    {
+      "scenario": "4. Benign common formatting",
+      "passed": true,
+      "detail": "template words discounted per file {'submission_01.pdf': 147, 'submission_02.docx': 147, 'submission_03.docx': 147, 'submission_05.pdf': 147, 'submission_11.docx': 147}; non-planted pairs flagged inside the template group: none; submission_11 (template + original) risk LOW, peer 0.0%"
+    },
+    {
+      "scenario": "5. Multi-document batch",
+      "passed": true,
+      "detail": "15/15 files produced a result; summary matrix and per-file JSON/MD written by run_integrity_check.py"
+    }
+  ],
+  "sweep": [
+    {
+      "setting": "sentence_threshold = 0.75",
+      "note": "",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fp": 0,
+      "fn": 0,
+      "false_positive_pairs": [],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "sentence_threshold = 0.80",
+      "note": "",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fp": 0,
+      "fn": 0,
+      "false_positive_pairs": [],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "sentence_threshold = 0.85",
+      "note": "",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fp": 0,
+      "fn": 0,
+      "false_positive_pairs": [],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "sentence_threshold = 0.90",
+      "note": "",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fp": 0,
+      "fn": 0,
+      "false_positive_pairs": [],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "sentence_threshold = 0.95",
+      "note": "",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fp": 0,
+      "fn": 0,
+      "false_positive_pairs": [],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "context_chunk_threshold = 0.75",
+      "note": "",
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1": 0.75,
+      "fp": 2,
+      "fn": 0,
+      "false_positive_pairs": [
+        [
+          "submission_03.docx",
+          "submission_06.pdf"
+        ],
+        [
+          "submission_04.docx",
+          "submission_06.pdf"
+        ]
+      ],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "context_chunk_threshold = 0.80",
+      "note": "",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fp": 0,
+      "fn": 0,
+      "false_positive_pairs": [],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "context_chunk_threshold = 0.90",
+      "note": "",
+      "precision": 1.0,
+      "recall": 0.667,
+      "f1": 0.8,
+      "fp": 0,
+      "fn": 1,
+      "false_positive_pairs": [],
+      "positive_coverage": [
+        100.0,
+        0.0,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    }
+  ],
+  "ablations": [
+    {
+      "setting": "Full engine (defaults)",
+      "note": "reference point",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fp": 0,
+      "fn": 0,
+      "false_positive_pairs": [],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "No boilerplate detection",
+      "note": "template text treated as normal content",
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "fp": 9,
+      "fn": 0,
+      "false_positive_pairs": [
+        [
+          "submission_01.pdf",
+          "submission_03.docx"
+        ],
+        [
+          "submission_01.pdf",
+          "submission_05.pdf"
+        ],
+        [
+          "submission_01.pdf",
+          "submission_11.docx"
+        ],
+        [
+          "submission_02.docx",
+          "submission_03.docx"
+        ],
+        [
+          "submission_02.docx",
+          "submission_05.pdf"
+        ],
+        [
+          "submission_02.docx",
+          "submission_11.docx"
+        ],
+        [
+          "submission_03.docx",
+          "submission_05.pdf"
+        ],
+        [
+          "submission_03.docx",
+          "submission_11.docx"
+        ],
+        [
+          "submission_05.pdf",
+          "submission_11.docx"
+        ]
+      ],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "No context (chunk-supported) matching",
+      "note": "context_chunk_threshold = 1.01",
+      "precision": 1.0,
+      "recall": 0.667,
+      "f1": 0.8,
+      "fp": 0,
+      "fn": 1,
+      "false_positive_pairs": [],
+      "positive_coverage": [
+        100.0,
+        0.0,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "No lexical rescue",
+      "note": "lexical_rescue_cosine = 1.0",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fp": 0,
+      "fn": 0,
+      "false_positive_pairs": [],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "No evidence-strength filter",
+      "note": "isolated 1-sentence semantic matches kept",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fp": 0,
+      "fn": 0,
+      "false_positive_pairs": [],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "No evidence filter + sentence_threshold 0.80",
+      "note": "shows what the filter protects against",
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.857,
+      "fp": 1,
+      "fn": 0,
+      "false_positive_pairs": [
+        [
+          "submission_04.docx",
+          "submission_06.pdf"
+        ]
+      ],
+      "positive_coverage": [
+        100.0,
+        81.5,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "Old defaults (0.80 / 0.75 / 0.65, no filter)",
+      "note": "pre-calibration thresholds",
+      "precision": 0.333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "fp": 6,
+      "fn": 0,
+      "false_positive_pairs": [
+        [
+          "submission_01.pdf",
+          "submission_04.docx"
+        ],
+        [
+          "submission_01.pdf",
+          "submission_05.pdf"
+        ],
+        [
+          "submission_02.docx",
+          "submission_04.docx"
+        ],
+        [
+          "submission_02.docx",
+          "submission_05.pdf"
+        ],
+        [
+          "submission_03.docx",
+          "submission_06.pdf"
+        ],
+        [
+          "submission_04.docx",
+          "submission_06.pdf"
+        ]
+      ],
+      "positive_coverage": [
+        100.0,
+        78.7,
+        87.1
+      ],
+      "external_coverage": [
+        52.0,
+        86.2
+      ],
+      "external_false_positive_docs": []
+    },
+    {
+      "setting": "Lexical-only baseline (Levenshtein ≥ 0.7, no embeddings)",
+      "note": "classic string matching on the same sentences",
+      "precision": 1.0,
+      "recall": 0.667,
+      "f1": 0.8,
+      "fp": 0,
+      "fn": 1,
+      "false_positive_pairs": [],
+      "false_negative_pairs": [
+        [
+          "submission_03.docx",
+          "submission_04.docx"
+        ]
+      ]
+    }
+  ],
+  "ai_benchmark": {
+    "description": "Standardised logistic regression over detector features; see scripts/calibrate_ai.py",
+    "features": [
+      "classifier_logit",
+      "mean_nll",
+      "burstiness"
+    ],
+    "weights": [
+      2.280654,
+      0.144972,
+      -0.039824
+    ],
+    "bias": 0.137688,
+    "means": [
+      1.076034,
+      3.13101,
+      0.542924
+    ],
+    "stds": [
+      5.385813,
+      0.397065,
+      0.187477
+    ],
+    "benchmark": {
+      "human_samples": 26,
+      "ai_samples": 28,
+      "human_source": "Wikipedia revisions saved before 2022-11-01 (CC BY-SA 4.0)",
+      "ai_source": "LLM-generated paragraphs on the same topics (see ai_generated.jsonl)"
+    },
+    "single_feature_auc": {
+      "classifier_logit": 0.955,
+      "classifier_logit_direction": "higher=AI",
+      "mean_nll": 0.758,
+      "mean_nll_direction": "lower=AI",
+      "burstiness": 0.647,
+      "burstiness_direction": "lower=AI"
+    },
+    "classifier_alone_at_0.5": {
+      "roc_auc": 0.955,
+      "accuracy": 0.907,
+      "precision": 0.926,
+      "recall": 0.893,
+      "confusion_matrix": {
+        "tn": 24,
+        "fp": 2,
+        "fn": 3,
+        "tp": 25
+      }
+    },
+    "combined_leave_one_out": {
+      "roc_auc": 0.941,
+      "accuracy": 0.907,
+      "precision": 0.926,
+      "recall": 0.893,
+      "confusion_matrix": {
+        "tn": 24,
+        "fp": 2,
+        "fn": 3,
+        "tp": 25
+      }
+    }
+  },
+  "per_document": [
+    {
+      "document_id": "pitch_01.mp4",
+      "status": "OK",
+      "risk": "HIGH",
+      "peer": 87.1,
+      "external": 0.0,
+      "ai": null
+    },
+    {
+      "document_id": "pitch_02.mp4",
+      "status": "OK",
+      "risk": "HIGH",
+      "peer": 0.0,
+      "external": 86.2,
+      "ai": null
+    },
+    {
+      "document_id": "pitch_03.mp4",
+      "status": "NO_AUDIO_TRACK",
+      "risk": "UNPROCESSABLE",
+      "peer": null,
+      "external": null,
+      "ai": null
+    },
+    {
+      "document_id": "submission_01.pdf",
+      "status": "OK",
+      "risk": "HIGH",
+      "peer": 100.0,
+      "external": 0.0,
+      "ai": 4.8
+    },
+    {
+      "document_id": "submission_02.docx",
+      "status": "OK",
+      "risk": "HIGH",
+      "peer": 100.0,
+      "external": 0.0,
+      "ai": 4.8
+    },
+    {
+      "document_id": "submission_03.docx",
+      "status": "OK",
+      "risk": "HIGH",
+      "peer": 81.4,
+      "external": 0.0,
+      "ai": 7.8
+    },
+    {
+      "document_id": "submission_04.docx",
+      "status": "OK",
+      "risk": "HIGH",
+      "peer": 81.5,
+      "external": 0.0,
+      "ai": 4.0
+    },
+    {
+      "document_id": "submission_05.pdf",
+      "status": "OK",
+      "risk": "MEDIUM",
+      "peer": 22.7,
+      "external": 0.0,
+      "ai": 8.8
+    },
+    {
+      "document_id": "submission_06.pdf",
+      "status": "OK",
+      "risk": "HIGH",
+      "peer": 0.0,
+      "external": 0.0,
+      "ai": 93.0
+    },
+    {
+      "document_id": "submission_07.pdf",
+      "status": "OK",
+      "risk": "LOW",
+      "peer": 0.0,
+      "external": 0.0,
+      "ai": 4.1
+    },
+    {
+      "document_id": "submission_08.docx",
+      "status": "OK",
+      "risk": "LOW",
+      "peer": 0.0,
+      "external": 0.0,
+      "ai": 16.8
+    },
+    {
+      "document_id": "submission_09.pdf",
+      "status": "OK",
+      "risk": "HIGH",
+      "peer": 0.0,
+      "external": 52.0,
+      "ai": 7.5
+    },
+    {
+      "document_id": "submission_10.pdf",
+      "status": "OK",
+      "risk": "LOW",
+      "peer": 0.0,
+      "external": 0.0,
+      "ai": 4.0
+    },
+    {
+      "document_id": "submission_11.docx",
+      "status": "OK",
+      "risk": "LOW",
+      "peer": 0.0,
+      "external": 0.0,
+      "ai": 12.6
+    },
+    {
+      "document_id": "submission_12.pdf",
+      "status": "EMPTY_FILE",
+      "risk": "UNPROCESSABLE",
+      "peer": null,
+      "external": null,
+      "ai": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+# Integrity engine configuration. Every value has a documented default in
+# integrity/config.py; anything set here overrides it. Unknown keys are errors.
+
+models:
+  embedding: sentence-transformers/all-MiniLM-L6-v2   # 384-d, 22M params, CPU-friendly
+  whisper: base                                       # tiny | base | small (faster-whisper)
+  whisper_compute_type: int8                          # int8 on CPU; float16 on GPU
+  ai_perplexity: openai-community/gpt2                # 124M causal LM for perplexity/burstiness
+  ai_classifier: Hello-SimpleAI/chatgpt-detector-roberta
+  device: auto                                        # auto | cpu | cuda
+
+asr:
+  beam_size: 5
+  vad_filter: true            # Silero VAD - prevents hallucinated text on silent audio
+  no_speech_threshold: 0.6
+  log_prob_threshold: -1.0
+  min_words: 3
+
+chunking:
+  max_tokens: 200             # MiniLM truncates at 256 word pieces
+  overlap_sentences: 1
+  min_sentence_words: 6
+
+matching:                     # calibrated on the dataset; see EVALUATION.md (threshold sweep)
+  top_k: 10
+  sentence_threshold: 0.85            # direct sentence match
+  context_chunk_threshold: 0.85       # chunks this similar are "about the same argument"
+  context_sentence_threshold: 0.60    # sentence alignment inside such chunk pairs (paraphrase)
+  single_sentence_min_similarity: 0.90  # isolated 1-sentence match needs this (or lexical overlap)
+  lexical_rescue_cosine: 0.70         # cosine 0.70-0.85 still counts if wording is near-verbatim
+  passage_gap: 1
+  verbatim_levenshtein: 0.90
+  near_verbatim_levenshtein: 0.70
+
+boilerplate:
+  enabled: true
+  similarity_threshold: 0.90
+  min_documents: 3
+  min_document_fraction: 0.10
+  template_file: null          # e.g. path/to/case_prompt.pdf
+
+ai:
+  enabled: true
+  min_words: 80
+  max_tokens_per_window: 512
+  calibration_file: integrity/resources/ai_calibration.json
+
+risk:
+  high_similarity: 30.0
+  medium_similarity: 10.0
+  high_ai: 85.0
+  medium_ai: 60.0
+
+report:
+  max_matches_in_markdown: 8
+  max_passage_chars: 700
+
+reference_dir: reference_corpus
+cache_dir: .cache

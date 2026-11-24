@@ -1,0 +1,88 @@
+{
+  "document_id": "pitch_01.mp4",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 87.1,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [],
+  "multimodal_matches": [
+    {
+      "matched_file": "submission_05.pdf",
+      "similarity_score": 1.0,
+      "query_passage": "We looked at the direct-to-consumer option through the lens of customer lifetime value. A typical snack shopper buys small packs on impulse, spends less than 300 rupees per order, and is unlikely to subscribe. Under realistic assumptions the payback period on paid acquisition is more than two years, which is too long for a company whose margins are already under pressure.",
+      "matched_passage": "We looked at the direct-to-consumer option through the lens of customer lifetime value. A typical snack shopper buys small packs on impulse, spends less than three hundred rupees per order, and is unlikely to subscribe. Under realistic assumptions the payback period on paid acquisition is more than two years, which is too long for a company whose margins are already under pressure.",
+      "location": {
+        "query_timestamp": "00:00:03 - 00:00:24",
+        "matched_page": 2
+      },
+      "match_type": "verbatim",
+      "chunk_similarity": 0.783,
+      "lexical_similarity": {
+        "jaccard": 0.946,
+        "levenshtein": 0.966
+      },
+      "matched_sentences": 3,
+      "query_words": 61,
+      "evidence": [
+        "direct"
+      ],
+      "sentence_alignment": [
+        {
+          "query_sentence": "We looked at the direct-to-consumer option through the lens of customer lifetime value.",
+          "matched_sentence": "We looked at the direct-to-consumer option through the lens of customer lifetime value.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "A typical snack shopper buys small packs on impulse, spends less than 300 rupees per order, and is unlikely to subscribe.",
+          "matched_sentence": "A typical snack shopper buys small packs on impulse, spends less than three hundred rupees per order, and is unlikely to subscribe.",
+          "similarity": 0.99,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "Under realistic assumptions the payback period on paid acquisition is more than two years, which is too long for a company whose margins are already under pressure.",
+          "matched_sentence": "Under realistic assumptions the payback period on paid acquisition is more than two years, which is too long for a company whose margins are already under pressure.",
+          "similarity": 1.0,
+          "method": "direct"
+        }
+      ]
+    }
+  ],
+  "explanations": "87.1% of the assessed text overlaps with other submissions: submission_05.pdf (87.1% of this file, cross-modal verbatim, at 00:00:03 - 00:00:24). No match with the external reference corpus. AI-generation likelihood not estimated: too little non-template prose. Risk HIGH because peer similarity 87.1% >= 30% (HIGH threshold). Note: similarity is symmetric - this report cannot tell which file is the original.",
+  "external_matches": [],
+  "boilerplate_passages": [],
+  "ai_assessment": {
+    "probability": null,
+    "status": "INSUFFICIENT_TEXT",
+    "assessed_words": 72,
+    "confidence": "normal",
+    "signals": {},
+    "notes": [
+      "Only 72 words of non-template prose; at least 80 are needed for a meaningful estimate."
+    ]
+  },
+  "risk_reasons": [
+    "peer similarity 87.1% >= 30% (HIGH threshold)"
+  ],
+  "processing": {
+    "status": "OK",
+    "file_type": "mp4",
+    "modality": "speech",
+    "pages": null,
+    "duration_seconds": 26.5,
+    "language": "en",
+    "sentences": 5,
+    "chunks": 1,
+    "header_footer_lines_removed": 0,
+    "warnings": []
+  },
+  "score_details": {
+    "assessed_words": 70,
+    "boilerplate_words": 0,
+    "pair_coverage_percentage": {
+      "submission_05.pdf": 87.1
+    }
+  }
+}

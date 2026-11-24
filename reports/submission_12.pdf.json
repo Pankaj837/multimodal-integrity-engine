@@ -1,0 +1,35 @@
+{
+  "document_id": "submission_12.pdf",
+  "total_integrity_risk": "UNPROCESSABLE",
+  "scores": {
+    "peer_similarity_percentage": null,
+    "external_similarity_percentage": null,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "explanations": "File could not be analysed (EMPTY_FILE): File is empty (0 bytes); nothing to analyse. No scores were computed.",
+  "external_matches": [],
+  "boilerplate_passages": [],
+  "ai_assessment": {},
+  "risk_reasons": [],
+  "processing": {
+    "status": "EMPTY_FILE",
+    "file_type": "pdf",
+    "modality": "text",
+    "pages": null,
+    "duration_seconds": null,
+    "language": null,
+    "sentences": 0,
+    "chunks": 0,
+    "header_footer_lines_removed": 0,
+    "warnings": [
+      "File is empty (0 bytes); nothing to analyse."
+    ]
+  },
+  "score_details": {
+    "assessed_words": 0,
+    "boilerplate_words": 0,
+    "pair_coverage_percentage": {}
+  }
+}

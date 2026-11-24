@@ -1,0 +1,47 @@
+{
+  "document_id": "submission_06.pdf",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 93.0
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "explanations": "No significant overlap with other submissions. No match with the external reference corpus. AI-generation likelihood is 93.0%. Risk HIGH because AI-generation probability 93.0% >= 85% (HIGH threshold).",
+  "external_matches": [],
+  "boilerplate_passages": [],
+  "ai_assessment": {
+    "probability": 93.0,
+    "status": "OK",
+    "assessed_words": 350,
+    "confidence": "normal",
+    "signals": {
+      "perplexity": 19.11,
+      "mean_token_nll": 2.95,
+      "burstiness": 0.751,
+      "classifier_probability": 99.9
+    },
+    "notes": []
+  },
+  "risk_reasons": [
+    "AI-generation probability 93.0% >= 85% (HIGH threshold)"
+  ],
+  "processing": {
+    "status": "OK",
+    "file_type": "pdf",
+    "modality": "text",
+    "pages": 1,
+    "duration_seconds": null,
+    "language": null,
+    "sentences": 24,
+    "chunks": 3,
+    "header_footer_lines_removed": 0,
+    "warnings": []
+  },
+  "score_details": {
+    "assessed_words": 350,
+    "boilerplate_words": 0,
+    "pair_coverage_percentage": {}
+  }
+}

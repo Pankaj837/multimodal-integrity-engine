@@ -1,0 +1,141 @@
+{
+  "document_id": "submission_04.docx",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 81.5,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 4.0
+  },
+  "peer_matches": [
+    {
+      "matched_file": "submission_03.docx",
+      "similarity_score": 0.77,
+      "query_passage": "The decline in Kestrel's gross margin stems largely from the way it sources raw materials. Because the firm purchases cooking oil and potatoes at prevailing market rates, it had no contractual shield when commodity costs spiked and therefore bore the entire increase. The bargaining strength of retailers compounded the damage: big grocery chains demanded larger promotional payments, yet Kestrel left its catalogue prices unchanged out of fear of losing its shelf space. A direct-to-consumer route would hand Kestrel useful customer data of its own and better price realisation on every pack. Yet shipping inexpensive snack orders to homes is uneconomic, and creating an online brand demands continuous advertising investment that today's margins simply cannot fund. Modern retail, in contrast, delivers reach and visibility straight away. Our advice is to deepen ties with supermarket partners through jointly agreed business plans instead of opening a standalone web channel at this stage. In the first year the priority is purchasing: Kestrel ought to agree yearly price contracts with oil processors and launch a contract-farming scheme with potato farmers in Maharashtra. The second year is about streamlining: the business should discontinue its weakest-selling variants and channel advertising budgets towards its five strongest brands. Important indicators are gross margin, sourcing cost per kilo, sales per variant and retailer fill rate. The largest danger is growers walking away from their agreements whenever market prices climb above the contracted rate.",
+      "matched_passage": "Kestrel's gross margin erosion is mainly a procurement problem. The company buys edible oil and potatoes on the spot market, so when commodity prices surged it absorbed the full increase without any contractual protection. Retailer power made things worse: large supermarket chains extracted bigger promotional allowances while Kestrel kept its list prices flat for fear of losing shelf space. Selling directly to consumers would give Kestrel valuable first-party data and higher realised prices per pack. However, the economics of delivering low-value snack orders are poor, and building a digital brand requires sustained marketing spend that the current margin cannot support. Modern trade offers scale and visibility immediately. We therefore recommend strengthening the modern-trade relationship through joint business plans rather than launching a separate online channel now. Year one should focus on procurement: Kestrel should negotiate annual price agreements with oil refiners and start a contract farming programme with potato growers in Maharashtra. Year two should focus on simplification: the company should remove the slowest-selling variants and redirect marketing money to its five best-selling brands. Key metrics include gross margin, procurement cost per kilogram, revenue per variant and retailer fill rate. The biggest risk is that farmers break contracts when spot prices rise above the agreed price.",
+      "location": {
+        "query_page": 1,
+        "query_page_end": 2,
+        "matched_page": 2
+      },
+      "match_type": "paraphrase",
+      "chunk_similarity": 0.893,
+      "lexical_similarity": {
+        "jaccard": 0.269,
+        "levenshtein": 0.455
+      },
+      "matched_sentences": 11,
+      "query_words": 233,
+      "evidence": [
+        "context",
+        "direct"
+      ],
+      "sentence_alignment": [
+        {
+          "query_sentence": "The decline in Kestrel's gross margin stems largely from the way it sources raw materials.",
+          "matched_sentence": "Kestrel's gross margin erosion is mainly a procurement problem.",
+          "similarity": 0.7,
+          "method": "context"
+        },
+        {
+          "query_sentence": "Because the firm purchases cooking oil and potatoes at prevailing market rates, it had no contractual shield when commodity costs spiked and therefore bore the entire increase.",
+          "matched_sentence": "The company buys edible oil and potatoes on the spot market, so when commodity prices surged it absorbed the full increase without any contractual protection.",
+          "similarity": 0.776,
+          "method": "context"
+        },
+        {
+          "query_sentence": "The bargaining strength of retailers compounded the damage: big grocery chains demanded larger promotional payments, yet Kestrel left its catalogue prices unchanged out of fear of losing its shelf space.",
+          "matched_sentence": "Retailer power made things worse: large supermarket chains extracted bigger promotional allowances while Kestrel kept its list prices flat for fear of losing shelf space.",
+          "similarity": 0.792,
+          "method": "context"
+        },
+        {
+          "query_sentence": "A direct-to-consumer route would hand Kestrel useful customer data of its own and better price realisation on every pack.",
+          "matched_sentence": "Selling directly to consumers would give Kestrel valuable first-party data and higher realised prices per pack.",
+          "similarity": 0.823,
+          "method": "context"
+        },
+        {
+          "query_sentence": "Yet shipping inexpensive snack orders to homes is uneconomic, and creating an online brand demands continuous advertising investment that today's margins simply cannot fund.",
+          "matched_sentence": "However, the economics of delivering low-value snack orders are poor, and building a digital brand requires sustained marketing spend that the current margin cannot support.",
+          "similarity": 0.781,
+          "method": "context"
+        },
+        {
+          "query_sentence": "Modern retail, in contrast, delivers reach and visibility straight away.",
+          "matched_sentence": "Modern trade offers scale and visibility immediately.",
+          "similarity": 0.633,
+          "method": "context"
+        },
+        {
+          "query_sentence": "Our advice is to deepen ties with supermarket partners through jointly agreed business plans instead of opening a standalone web channel at this stage.",
+          "matched_sentence": "We therefore recommend strengthening the modern-trade relationship through joint business plans rather than launching a separate online channel now.",
+          "similarity": 0.708,
+          "method": "context"
+        },
+        {
+          "query_sentence": "In the first year the priority is purchasing: Kestrel ought to agree yearly price contracts with oil processors and launch a contract-farming scheme with potato farmers in Maharashtra.",
+          "matched_sentence": "Year one should focus on procurement: Kestrel should negotiate annual price agreements with oil refiners and start a contract farming programme with potato growers in Maharashtra.",
+          "similarity": 0.887,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "The second year is about streamlining: the business should discontinue its weakest-selling variants and channel advertising budgets towards its five strongest brands.",
+          "matched_sentence": "Year two should focus on simplification: the company should remove the slowest-selling variants and redirect marketing money to its five best-selling brands.",
+          "similarity": 0.702,
+          "method": "context"
+        },
+        {
+          "query_sentence": "Important indicators are gross margin, sourcing cost per kilo, sales per variant and retailer fill rate.",
+          "matched_sentence": "Key metrics include gross margin, procurement cost per kilogram, revenue per variant and retailer fill rate.",
+          "similarity": 0.814,
+          "method": "context"
+        },
+        {
+          "query_sentence": "The largest danger is growers walking away from their agreements whenever market prices climb above the contracted rate.",
+          "matched_sentence": "The biggest risk is that farmers break contracts when spot prices rise above the agreed price.",
+          "similarity": 0.69,
+          "method": "context"
+        }
+      ]
+    }
+  ],
+  "multimodal_matches": [],
+  "explanations": "81.5% of the assessed text overlaps with other submissions: submission_03.docx (81.5% of this file, paraphrase, at p. 1–2; semantic paraphrase - chunk cosine 0.89 despite low wording overlap (Jaccard 0.27, Levenshtein 0.46)). No match with the external reference corpus. AI-generation likelihood is 4.0%. Risk HIGH because peer similarity 81.5% >= 30% (HIGH threshold). Note: similarity is symmetric - this report cannot tell which file is the original.",
+  "external_matches": [],
+  "boilerplate_passages": [],
+  "ai_assessment": {
+    "probability": 4.0,
+    "status": "OK",
+    "assessed_words": 286,
+    "confidence": "normal",
+    "signals": {
+      "perplexity": 87.41,
+      "mean_token_nll": 4.471,
+      "burstiness": 0.48,
+      "classifier_probability": 0.0
+    },
+    "notes": []
+  },
+  "risk_reasons": [
+    "peer similarity 81.5% >= 30% (HIGH threshold)"
+  ],
+  "processing": {
+    "status": "OK",
+    "file_type": "docx",
+    "modality": "text",
+    "pages": 2,
+    "duration_seconds": null,
+    "language": null,
+    "sentences": 17,
+    "chunks": 2,
+    "header_footer_lines_removed": 0,
+    "warnings": []
+  },
+  "score_details": {
+    "assessed_words": 286,
+    "boilerplate_words": 0,
+    "pair_coverage_percentage": {
+      "submission_03.docx": 81.5
+    }
+  }
+}

@@ -1,0 +1,29 @@
+# Runtime + test dependencies (tested with Python 3.11 on Windows 11, CPU only).
+# Install:  pip install -r requirements.txt
+# Linux CPU-only machines can avoid the large CUDA wheel of torch with:
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+
+# --- ML models -------------------------------------------------------------
+torch==2.15.0
+sentence-transformers==6.3.0          # all-MiniLM-L6-v2 embeddings
+transformers==5.23.0                  # GPT-2 perplexity + RoBERTa AI-text classifier
+faster-whisper==1.2.1                 # Whisper ASR (CTranslate2); decodes audio via PyAV, no system ffmpeg
+av==18.1.0                            # media container probing (audio-track detection)
+faiss-cpu==1.16.0                     # vector index (exact inner product / HNSW)
+scikit-learn==1.9.1                   # logistic calibration of the AI detector
+numpy==2.4.6
+
+# --- document parsing ---------------------------------------------------------
+pypdf==7.1.1
+cryptography==50.0.2                  # lets pypdf open AES-encrypted (owner-password-only) PDFs
+python-docx==1.2.0
+
+# --- utilities ------------------------------------------------------------------
+rapidfuzz==3.14.6                     # Levenshtein / lexical similarity
+pyyaml==6.0.3
+huggingface-hub==2.4.0
+
+# --- tests (fixtures generate PDFs/videos on the fly) -------------------------------
+pytest==9.2.0
+reportlab==5.1.0
+imageio-ffmpeg==0.8.1                 # bundled ffmpeg binary for test/dataset videos

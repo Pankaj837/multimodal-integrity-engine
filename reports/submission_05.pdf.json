@@ -1,0 +1,164 @@
+{
+  "document_id": "submission_05.pdf",
+  "total_integrity_risk": "MEDIUM",
+  "scores": {
+    "peer_similarity_percentage": 22.7,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 8.8
+  },
+  "peer_matches": [],
+  "multimodal_matches": [
+    {
+      "matched_file": "pitch_01.mp4",
+      "similarity_score": 1.0,
+      "query_passage": "We looked at the direct-to-consumer option through the lens of customer lifetime value. A typical snack shopper buys small packs on impulse, spends less than three hundred rupees per order, and is unlikely to subscribe. Under realistic assumptions the payback period on paid acquisition is more than two years, which is too long for a company whose margins are already under pressure.",
+      "matched_passage": "We looked at the direct-to-consumer option through the lens of customer lifetime value. A typical snack shopper buys small packs on impulse, spends less than 300 rupees per order, and is unlikely to subscribe. Under realistic assumptions the payback period on paid acquisition is more than two years, which is too long for a company whose margins are already under pressure.",
+      "location": {
+        "query_page": 2,
+        "matched_timestamp": "00:00:03 - 00:00:24"
+      },
+      "match_type": "verbatim",
+      "chunk_similarity": 0.783,
+      "lexical_similarity": {
+        "jaccard": 0.946,
+        "levenshtein": 0.966
+      },
+      "matched_sentences": 3,
+      "query_words": 62,
+      "evidence": [
+        "direct"
+      ],
+      "sentence_alignment": [
+        {
+          "query_sentence": "We looked at the direct-to-consumer option through the lens of customer lifetime value.",
+          "matched_sentence": "We looked at the direct-to-consumer option through the lens of customer lifetime value.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "A typical snack shopper buys small packs on impulse, spends less than three hundred rupees per order, and is unlikely to subscribe.",
+          "matched_sentence": "A typical snack shopper buys small packs on impulse, spends less than 300 rupees per order, and is unlikely to subscribe.",
+          "similarity": 0.99,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "Under realistic assumptions the payback period on paid acquisition is more than two years, which is too long for a company whose margins are already under pressure.",
+          "matched_sentence": "Under realistic assumptions the payback period on paid acquisition is more than two years, which is too long for a company whose margins are already under pressure.",
+          "similarity": 1.0,
+          "method": "direct"
+        }
+      ]
+    }
+  ],
+  "explanations": "22.7% of the assessed text overlaps with other submissions: pitch_01.mp4 (22.7% of this file, cross-modal verbatim, at p. 2). No match with the external reference corpus. 147 words of shared template/boilerplate text (present in up to 5 submissions) were recognised and excluded from scoring. AI-generation likelihood is 8.8%. Risk MEDIUM because peer similarity 22.7% >= 10% (MEDIUM threshold). Note: similarity is symmetric - this report cannot tell which file is the original.",
+  "external_matches": [],
+  "boilerplate_passages": [
+    {
+      "text": "Kestrel Foods Ltd. is a fictional mid-sized manufacturer of packaged snacks headquartered in Pune, India.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Over the last three years its revenue grew by eleven percent a year, but its gross margin fell from 38 percent to 29 percent.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Prices of edible oil and potatoes rose sharply, modern-trade retailers demanded deeper discounts, and two venture-funded direct-to-consumer brands entered its core categories.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "The board is considering three options: integrating backward into contract farming, building its own direct-to-consumer channel, or consolidating its product range.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "First, diagnose the main drivers of the margin decline.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Second, evaluate the direct-to-consumer option against expansion in modern trade.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Third, recommend a three-year plan with clear milestones, key risks and the metrics the board should track.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Use the data pack provided, state every assumption you make, and justify each recommendation with numbers.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    },
+    {
+      "text": "Limit your answer to 1,500 words and cite every source you use.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 3
+      }
+    }
+  ],
+  "ai_assessment": {
+    "probability": 8.8,
+    "status": "OK",
+    "assessed_words": 277,
+    "confidence": "normal",
+    "signals": {
+      "perplexity": 57.06,
+      "mean_token_nll": 4.044,
+      "burstiness": 0.511,
+      "classifier_probability": 0.4
+    },
+    "notes": []
+  },
+  "risk_reasons": [
+    "peer similarity 22.7% >= 10% (MEDIUM threshold)"
+  ],
+  "processing": {
+    "status": "OK",
+    "file_type": "pdf",
+    "modality": "text",
+    "pages": 2,
+    "duration_seconds": null,
+    "language": null,
+    "sentences": 33,
+    "chunks": 2,
+    "header_footer_lines_removed": 0,
+    "warnings": []
+  },
+  "score_details": {
+    "assessed_words": 273,
+    "boilerplate_words": 147,
+    "pair_coverage_percentage": {
+      "pitch_01.mp4": 22.7
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Extra tools for rebuilding the dataset and linting (not needed to run the pipeline).
+-r requirements.txt
+pyttsx3==2.99        # offline text-to-speech (Windows SAPI / espeak) for scripts/build_dataset.py
+pillow==13.0.0       # title cards for the generated videos
+ruff==0.17.6         # PEP 8 / lint:  ruff check .

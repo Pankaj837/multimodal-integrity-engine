@@ -1,0 +1,21 @@
+[project]
+name = "multimodal-integrity-engine"
+version = "1.0.0"
+description = "Multimodal (PDF/DOCX/MP4) submission integrity and plagiarism detection prototype"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: needs the Whisper model (downloaded on first use)"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning", "ignore::UserWarning"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+# B905: zip() is only used on sequences that are equal-length by construction.
+# UP0xx: typing.List/Optional kept for readability and Python 3.9 syntax compatibility.
+ignore = ["UP006", "UP007", "UP035", "UP045", "B008", "B905"]

@@ -1,0 +1,45 @@
+{
+  "document_id": "submission_10.pdf",
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 4.0
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "explanations": "No significant overlap with other submissions. No match with the external reference corpus. AI-generation likelihood is 4.0%. Risk LOW: no signal crossed a review threshold.",
+  "external_matches": [],
+  "boilerplate_passages": [],
+  "ai_assessment": {
+    "probability": 4.0,
+    "status": "OK",
+    "assessed_words": 253,
+    "confidence": "normal",
+    "signals": {
+      "perplexity": 73.02,
+      "mean_token_nll": 4.291,
+      "burstiness": 0.855,
+      "classifier_probability": 0.1
+    },
+    "notes": []
+  },
+  "risk_reasons": [],
+  "processing": {
+    "status": "OK",
+    "file_type": "pdf",
+    "modality": "text",
+    "pages": 3,
+    "duration_seconds": null,
+    "language": null,
+    "sentences": 35,
+    "chunks": 2,
+    "header_footer_lines_removed": 9,
+    "warnings": []
+  },
+  "score_details": {
+    "assessed_words": 253,
+    "boilerplate_words": 0,
+    "pair_coverage_percentage": {}
+  }
+}

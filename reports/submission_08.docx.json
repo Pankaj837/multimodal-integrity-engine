@@ -1,0 +1,45 @@
+{
+  "document_id": "submission_08.docx",
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 16.8
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "explanations": "No significant overlap with other submissions. No match with the external reference corpus. AI-generation likelihood is 16.8%. Risk LOW: no signal crossed a review threshold.",
+  "external_matches": [],
+  "boilerplate_passages": [],
+  "ai_assessment": {
+    "probability": 16.8,
+    "status": "OK",
+    "assessed_words": 229,
+    "confidence": "normal",
+    "signals": {
+      "perplexity": 60.48,
+      "mean_token_nll": 4.102,
+      "burstiness": 0.8,
+      "classifier_probability": 2.3
+    },
+    "notes": []
+  },
+  "risk_reasons": [],
+  "processing": {
+    "status": "OK",
+    "file_type": "docx",
+    "modality": "text",
+    "pages": 2,
+    "duration_seconds": null,
+    "language": null,
+    "sentences": 18,
+    "chunks": 2,
+    "header_footer_lines_removed": 0,
+    "warnings": []
+  },
+  "score_details": {
+    "assessed_words": 230,
+    "boilerplate_words": 0,
+    "pair_coverage_percentage": {}
+  }
+}

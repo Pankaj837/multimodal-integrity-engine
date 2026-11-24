@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Pipeline outputs: reports/ IS committed on purpose (reviewers can read results
+# without running anything). Ad-hoc output folders are not.
+reports_*/
+*.log
+
+# Local scratch / build intermediates
+build/
+.tmp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# The original assignment brief is not redistributed
+*Assignment*.pdf
+
+# Model / embedding caches
+.cache/

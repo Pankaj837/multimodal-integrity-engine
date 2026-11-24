@@ -1,0 +1,82 @@
+{
+  "document_id": "pitch_02.mp4",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 86.2,
+    "ai_generated_probability": null
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "explanations": "No significant overlap with other submissions. 86.2% matches external reference sources (Supply chain management). AI-generation likelihood not estimated: too little non-template prose. Risk HIGH because external similarity 86.2% >= 30% (HIGH threshold).",
+  "external_matches": [
+    {
+      "matched_source": "Supply chain management",
+      "matched_file": "supply_chain_management.txt",
+      "similarity_score": 0.92,
+      "query_passage": "In commerce, supply chain management is the management of the flow of goods and services and includes all processes that transform raw materials into final products. This can include the movement and storage of raw materials, work in process inventory, finished goods, and end-to-end order fulfillment from the point of origin to the point of consumption.",
+      "matched_passage": "In commerce, supply chain management (SCM) is the management of the flow of goods and services includes all processes that transform raw materials into final products between businesses and locations. This can include the movement and storage of raw materials, work-in-process inventory, finished goods, and end to end order fulfilment from the point of origin to the point of consumption.",
+      "location": {
+        "query_timestamp": "00:00:04 - 00:00:23",
+        "matched_paragraph": 1
+      },
+      "match_type": "near_verbatim",
+      "chunk_similarity": 0.832,
+      "lexical_similarity": {
+        "jaccard": 0.864,
+        "levenshtein": 0.89
+      },
+      "matched_sentences": 2,
+      "query_words": 56,
+      "evidence": [
+        "direct"
+      ],
+      "sentence_alignment": [
+        {
+          "query_sentence": "In commerce, supply chain management is the management of the flow of goods and services and includes all processes that transform raw materials into final products.",
+          "matched_sentence": "In commerce, supply chain management (SCM) is the management of the flow of goods and services includes all processes that transform raw materials into final products between businesses and locations.",
+          "similarity": 0.851,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "This can include the movement and storage of raw materials, work in process inventory, finished goods, and end-to-end order fulfillment from the point of origin to the point of consumption.",
+          "matched_sentence": "This can include the movement and storage of raw materials, work-in-process inventory, finished goods, and end to end order fulfilment from the point of origin to the point of consumption.",
+          "similarity": 0.974,
+          "method": "direct"
+        }
+      ],
+      "source_url": "https://en.wikipedia.org/w/index.php?oldid=1118756368"
+    }
+  ],
+  "boilerplate_passages": [],
+  "ai_assessment": {
+    "probability": null,
+    "status": "INSUFFICIENT_TEXT",
+    "assessed_words": 65,
+    "confidence": "normal",
+    "signals": {},
+    "notes": [
+      "Only 65 words of non-template prose; at least 80 are needed for a meaningful estimate."
+    ]
+  },
+  "risk_reasons": [
+    "external similarity 86.2% >= 30% (HIGH threshold)"
+  ],
+  "processing": {
+    "status": "OK",
+    "file_type": "mp4",
+    "modality": "speech",
+    "pages": null,
+    "duration_seconds": 24.17,
+    "language": "en",
+    "sentences": 3,
+    "chunks": 1,
+    "header_footer_lines_removed": 0,
+    "warnings": []
+  },
+  "score_details": {
+    "assessed_words": 65,
+    "boilerplate_words": 0,
+    "pair_coverage_percentage": {}
+  }
+}

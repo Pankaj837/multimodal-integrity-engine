@@ -1,0 +1,153 @@
+{
+  "document_id": "submission_09.pdf",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 52.0,
+    "ai_generated_probability": 7.5
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "explanations": "No significant overlap with other submissions. 52.0% matches external reference sources (Gross margin, Vertical integration). AI-generation likelihood is 7.5%. Risk HIGH because external similarity 52.0% >= 30% (HIGH threshold).",
+  "external_matches": [
+    {
+      "matched_source": "Vertical integration",
+      "matched_file": "vertical_integration.txt",
+      "similarity_score": 1.0,
+      "query_passage": "Vertical integration is often closely associated with vertical expansion which, in economics, is the growth of a business enterprise through the acquisition of companies that produce the intermediate goods needed by the business or help market and distribute its product. Such expansion is desired because it secures the supplies needed by the firm to produce its product and the market needed to sell the product.",
+      "matched_passage": "Vertical integration is often closely associated with vertical expansion which, in economics, is the growth of a business enterprise through the acquisition of companies that produce the intermediate goods needed by the business or help market and distribute its product. Such expansion is desired because it secures the supplies needed by the firm to produce its product and the market needed to sell the product.",
+      "location": {
+        "query_page": 1,
+        "matched_paragraph": 3
+      },
+      "match_type": "verbatim",
+      "chunk_similarity": 0.799,
+      "lexical_similarity": {
+        "jaccard": 1.0,
+        "levenshtein": 1.0
+      },
+      "matched_sentences": 2,
+      "query_words": 65,
+      "evidence": [
+        "direct"
+      ],
+      "sentence_alignment": [
+        {
+          "query_sentence": "Vertical integration is often closely associated with vertical expansion which, in economics, is the growth of a business enterprise through the acquisition of companies that produce the intermediate goods needed by the business or help market and distribute its product.",
+          "matched_sentence": "Vertical integration is often closely associated with vertical expansion which, in economics, is the growth of a business enterprise through the acquisition of companies that produce the intermediate goods needed by the business or help market and distribute its product.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "Such expansion is desired because it secures the supplies needed by the firm to produce its product and the market needed to sell the product.",
+          "matched_sentence": "Such expansion is desired because it secures the supplies needed by the firm to produce its product and the market needed to sell the product.",
+          "similarity": 1.0,
+          "method": "direct"
+        }
+      ],
+      "source_url": "https://en.wikipedia.org/w/index.php?oldid=1117529762"
+    },
+    {
+      "matched_source": "Vertical integration",
+      "matched_file": "vertical_integration.txt",
+      "similarity_score": 1.0,
+      "query_passage": "In microeconomics, management, and international political economy, vertical integration is a term that describes the arrangement in which the supply chain of a company is integrated and owned by that company. Usually each member of the supply chain produces a different product or (market-specific) service, and the products combine to satisfy a common need.",
+      "matched_passage": "In microeconomics, management, and international political economy, vertical integration is a term that describes the arrangement in which the supply chain of a company is integrated and owned by that company. Usually each member of the supply chain produces a different product or (market-specific) service, and the products combine to satisfy a common need.",
+      "location": {
+        "query_page": 1,
+        "matched_paragraph": 1
+      },
+      "match_type": "verbatim",
+      "chunk_similarity": 0.835,
+      "lexical_similarity": {
+        "jaccard": 1.0,
+        "levenshtein": 1.0
+      },
+      "matched_sentences": 2,
+      "query_words": 54,
+      "evidence": [
+        "direct"
+      ],
+      "sentence_alignment": [
+        {
+          "query_sentence": "In microeconomics, management, and international political economy, vertical integration is a term that describes the arrangement in which the supply chain of a company is integrated and owned by that company.",
+          "matched_sentence": "In microeconomics, management, and international political economy, vertical integration is a term that describes the arrangement in which the supply chain of a company is integrated and owned by that company.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "Usually each member of the supply chain produces a different product or (market-specific) service, and the products combine to satisfy a common need.",
+          "matched_sentence": "Usually each member of the supply chain produces a different product or (market-specific) service, and the products combine to satisfy a common need.",
+          "similarity": 1.0,
+          "method": "direct"
+        }
+      ],
+      "source_url": "https://en.wikipedia.org/w/index.php?oldid=1117529762"
+    },
+    {
+      "matched_source": "Gross margin",
+      "matched_file": "gross_margin.txt",
+      "similarity_score": 0.88,
+      "query_passage": "Gross margin is the difference between revenue and the cost of goods sold, divided by revenue, and it is always expressed as a percentage.",
+      "matched_passage": "Gross margin is the difference between revenue and cost of goods sold (COGS), divided by revenue. Gross margin is expressed as a percentage.",
+      "location": {
+        "query_page": 1,
+        "matched_paragraph": 1
+      },
+      "match_type": "near_verbatim",
+      "chunk_similarity": 0.556,
+      "lexical_similarity": {
+        "jaccard": 0.857,
+        "levenshtein": 0.83
+      },
+      "matched_sentences": 1,
+      "query_words": 24,
+      "evidence": [
+        "direct"
+      ],
+      "sentence_alignment": [
+        {
+          "query_sentence": "Gross margin is the difference between revenue and the cost of goods sold, divided by revenue, and it is always expressed as a percentage.",
+          "matched_sentence": "Gross margin is the difference between revenue and cost of goods sold (COGS), divided by revenue. Gross margin is expressed as a percentage.",
+          "similarity": 0.881,
+          "method": "direct"
+        }
+      ],
+      "source_url": "https://en.wikipedia.org/w/index.php?oldid=1100458692"
+    }
+  ],
+  "boilerplate_passages": [],
+  "ai_assessment": {
+    "probability": 7.5,
+    "status": "OK",
+    "assessed_words": 275,
+    "confidence": "normal",
+    "signals": {
+      "perplexity": 39.58,
+      "mean_token_nll": 3.678,
+      "burstiness": 0.625,
+      "classifier_probability": 0.4
+    },
+    "notes": []
+  },
+  "risk_reasons": [
+    "external similarity 52.0% >= 30% (HIGH threshold)"
+  ],
+  "processing": {
+    "status": "OK",
+    "file_type": "pdf",
+    "modality": "text",
+    "pages": 1,
+    "duration_seconds": null,
+    "language": null,
+    "sentences": 16,
+    "chunks": 2,
+    "header_footer_lines_removed": 0,
+    "warnings": []
+  },
+  "score_details": {
+    "assessed_words": 275,
+    "boilerplate_words": 0,
+    "pair_coverage_percentage": {}
+  }
+}

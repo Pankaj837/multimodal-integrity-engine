@@ -1,0 +1,272 @@
+{
+  "document_id": "submission_01.pdf",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 100.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 4.8
+  },
+  "peer_matches": [
+    {
+      "matched_file": "submission_02.docx",
+      "similarity_score": 1.0,
+      "query_passage": "Volumes are still growing at a healthy clip, so the nine point fall in gross margin has to be explained by cost and price. We traced roughly two thirds of the decline to input costs. Edible oil and potato prices moved together in 2024 and 2025, and Kestrel had no hedging or long-term supply contracts, which meant every spike flowed straight into cost of goods sold. The remaining third came from trade terms. Modern-trade chains now ask for listing fees, promotional funding and longer credit periods, and Kestrel accepted these terms one account at a time without ever pricing them into its list prices. There is also a mix effect that the board papers tend to ignore. The fastest growing products are the large value packs, and these carry the thinnest margin in the range. In other words the company has been growing in exactly the wrong place. A direct-to-consumer channel looks attractive on paper because it removes the retailer's cut. We think it is the wrong first move. Customer acquisition costs for snack brands sold online are high, repeat purchase is driven by impulse rather than loyalty, and the average order value of a snack basket rarely covers last-mile delivery. The two funded challengers are burning cash to buy share, and Kestrel should not join a price war it cannot finance. Modern trade, by contrast, is where Kestrel already has shelf presence. The issue there is negotiating discipline rather than the channel itself. A simple account-level profitability review would show which chains destroy value once promotions and credit costs are included. Our three-year plan has three steps. In year one, Kestrel should sign forward contracts for edible oil covering at least half of its annual requirement and pilot contract farming for potatoes with two farmer producer organisations. In year two, it should cut the long tail of low-margin stock keeping units by about a quarter and reprice the value packs. In year three, once margins are back above 34 percent, it can test a small direct-to-consumer storefront focused on premium gift packs, where order values are higher. The board should track gross margin by product family, trade spend as a share of revenue, and the share of raw material volume that is contracted in advance. The main risk is a poor monsoon year that pushes farm prices above the contracted level, which is why the pilot must start small.",
+      "matched_passage": "Volumes are still growing at a healthy clip, so the nine point fall in gross margin has to be explained by cost and price. We traced roughly two thirds of the decline to input costs. Edible oil and potato prices moved together in 2024 and 2025, and Kestrel had no hedging or long-term supply contracts, which meant every spike flowed straight into cost of goods sold. The remaining third came from trade terms. Modern-trade chains now ask for listing fees, promotional funding and longer credit periods, and Kestrel accepted these terms one account at a time without ever pricing them into its list prices. There is also a mix effect that the board papers tend to ignore. The fastest growing products are the large value packs, and these carry the thinnest margin in the range. In other words the company has been growing in exactly the wrong place. A direct-to-consumer channel looks attractive on paper because it removes the retailer's cut. We think it is the wrong first move. Customer acquisition costs for snack brands sold online are high, repeat purchase is driven by impulse rather than loyalty, and the average order value of a snack basket rarely covers last-mile delivery. The two funded challengers are burning cash to buy share, and Kestrel should not join a price war it cannot finance. Modern trade, by contrast, is where Kestrel already has shelf presence. The issue there is negotiating discipline rather than the channel itself. A simple account-level profitability review would show which chains destroy value once promotions and credit costs are included. Our three-year plan has three steps. In year one, Kestrel should sign forward contracts for edible oil covering at least half of its annual requirement and pilot contract farming for potatoes with two farmer producer organisations. In year two, it should cut the long tail of low-margin stock keeping units by about a quarter and reprice the value packs. In year three, once margins are back above 34 percent, it can test a small direct-to-consumer storefront focused on premium gift packs, where order values are higher. The board should track gross margin by product family, trade spend as a share of revenue, and the share of raw material volume that is contracted in advance. The main risk is a poor monsoon year that pushes farm prices above the contracted level, which is why the pilot must start small.",
+      "location": {
+        "query_page": 2,
+        "matched_page": 2
+      },
+      "match_type": "verbatim",
+      "chunk_similarity": 1.0,
+      "lexical_similarity": {
+        "jaccard": 1.0,
+        "levenshtein": 1.0
+      },
+      "matched_sentences": 21,
+      "query_words": 400,
+      "evidence": [
+        "direct"
+      ],
+      "sentence_alignment": [
+        {
+          "query_sentence": "Volumes are still growing at a healthy clip, so the nine point fall in gross margin has to be explained by cost and price.",
+          "matched_sentence": "Volumes are still growing at a healthy clip, so the nine point fall in gross margin has to be explained by cost and price.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "We traced roughly two thirds of the decline to input costs.",
+          "matched_sentence": "We traced roughly two thirds of the decline to input costs.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "Edible oil and potato prices moved together in 2024 and 2025, and Kestrel had no hedging or long-term supply contracts, which meant every spike flowed straight into cost of goods sold.",
+          "matched_sentence": "Edible oil and potato prices moved together in 2024 and 2025, and Kestrel had no hedging or long-term supply contracts, which meant every spike flowed straight into cost of goods sold.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "The remaining third came from trade terms.",
+          "matched_sentence": "The remaining third came from trade terms.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "Modern-trade chains now ask for listing fees, promotional funding and longer credit periods, and Kestrel accepted these terms one account at a time without ever pricing them into its list prices.",
+          "matched_sentence": "Modern-trade chains now ask for listing fees, promotional funding and longer credit periods, and Kestrel accepted these terms one account at a time without ever pricing them into its list prices.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "There is also a mix effect that the board papers tend to ignore.",
+          "matched_sentence": "There is also a mix effect that the board papers tend to ignore.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "The fastest growing products are the large value packs, and these carry the thinnest margin in the range.",
+          "matched_sentence": "The fastest growing products are the large value packs, and these carry the thinnest margin in the range.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "In other words the company has been growing in exactly the wrong place.",
+          "matched_sentence": "In other words the company has been growing in exactly the wrong place.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "A direct-to-consumer channel looks attractive on paper because it removes the retailer's cut.",
+          "matched_sentence": "A direct-to-consumer channel looks attractive on paper because it removes the retailer's cut.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "We think it is the wrong first move.",
+          "matched_sentence": "We think it is the wrong first move.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "Customer acquisition costs for snack brands sold online are high, repeat purchase is driven by impulse rather than loyalty, and the average order value of a snack basket rarely covers last-mile delivery.",
+          "matched_sentence": "Customer acquisition costs for snack brands sold online are high, repeat purchase is driven by impulse rather than loyalty, and the average order value of a snack basket rarely covers last-mile delivery.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "The two funded challengers are burning cash to buy share, and Kestrel should not join a price war it cannot finance.",
+          "matched_sentence": "The two funded challengers are burning cash to buy share, and Kestrel should not join a price war it cannot finance.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "Modern trade, by contrast, is where Kestrel already has shelf presence.",
+          "matched_sentence": "Modern trade, by contrast, is where Kestrel already has shelf presence.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "The issue there is negotiating discipline rather than the channel itself.",
+          "matched_sentence": "The issue there is negotiating discipline rather than the channel itself.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "A simple account-level profitability review would show which chains destroy value once promotions and credit costs are included.",
+          "matched_sentence": "A simple account-level profitability review would show which chains destroy value once promotions and credit costs are included.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "Our three-year plan has three steps.",
+          "matched_sentence": "Our three-year plan has three steps.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "In year one, Kestrel should sign forward contracts for edible oil covering at least half of its annual requirement and pilot contract farming for potatoes with two farmer producer organisations.",
+          "matched_sentence": "In year one, Kestrel should sign forward contracts for edible oil covering at least half of its annual requirement and pilot contract farming for potatoes with two farmer producer organisations.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "In year two, it should cut the long tail of low-margin stock keeping units by about a quarter and reprice the value packs.",
+          "matched_sentence": "In year two, it should cut the long tail of low-margin stock keeping units by about a quarter and reprice the value packs.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "In year three, once margins are back above 34 percent, it can test a small direct-to-consumer storefront focused on premium gift packs, where order values are higher.",
+          "matched_sentence": "In year three, once margins are back above 34 percent, it can test a small direct-to-consumer storefront focused on premium gift packs, where order values are higher.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "The board should track gross margin by product family, trade spend as a share of revenue, and the share of raw material volume that is contracted in advance.",
+          "matched_sentence": "The board should track gross margin by product family, trade spend as a share of revenue, and the share of raw material volume that is contracted in advance.",
+          "similarity": 1.0,
+          "method": "direct"
+        },
+        {
+          "query_sentence": "The main risk is a poor monsoon year that pushes farm prices above the contracted level, which is why the pilot must start small.",
+          "matched_sentence": "The main risk is a poor monsoon year that pushes farm prices above the contracted level, which is why the pilot must start small.",
+          "similarity": 1.0,
+          "method": "direct"
+        }
+      ]
+    }
+  ],
+  "multimodal_matches": [],
+  "explanations": "100.0% of the assessed text overlaps with other submissions: submission_02.docx (100.0% of this file, verbatim, at p. 2). No match with the external reference corpus. 147 words of shared template/boilerplate text (present in up to 5 submissions) were recognised and excluded from scoring. AI-generation likelihood is 4.8%. Risk HIGH because peer similarity 100.0% >= 30% (HIGH threshold). Note: similarity is symmetric - this report cannot tell which file is the original.",
+  "external_matches": [],
+  "boilerplate_passages": [
+    {
+      "text": "Kestrel Foods Ltd. is a fictional mid-sized manufacturer of packaged snacks headquartered in Pune, India.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 4
+      }
+    },
+    {
+      "text": "Over the last three years its revenue grew by eleven percent a year, but its gross margin fell from 38 percent to 29 percent.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 4
+      }
+    },
+    {
+      "text": "Prices of edible oil and potatoes rose sharply, modern-trade retailers demanded deeper discounts, and two venture-funded direct-to-consumer brands entered its core categories.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 4
+      }
+    },
+    {
+      "text": "The board is considering three options: integrating backward into contract farming, building its own direct-to-consumer channel, or consolidating its product range.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 4
+      }
+    },
+    {
+      "text": "First, diagnose the main drivers of the margin decline.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 4
+      }
+    },
+    {
+      "text": "Second, evaluate the direct-to-consumer option against expansion in modern trade.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 4
+      }
+    },
+    {
+      "text": "Third, recommend a three-year plan with clear milestones, key risks and the metrics the board should track.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 4
+      }
+    },
+    {
+      "text": "Use the data pack provided, state every assumption you make, and justify each recommendation with numbers.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 4
+      }
+    },
+    {
+      "text": "Limit your answer to 1,500 words and cite every source you use.",
+      "shared_by_documents": 5,
+      "location": {
+        "page": 1,
+        "paragraph": 4
+      }
+    }
+  ],
+  "ai_assessment": {
+    "probability": 4.8,
+    "status": "OK",
+    "assessed_words": 409,
+    "confidence": "normal",
+    "signals": {
+      "perplexity": 66.91,
+      "mean_token_nll": 4.203,
+      "burstiness": 0.543,
+      "classifier_probability": 0.1
+    },
+    "notes": []
+  },
+  "risk_reasons": [
+    "peer similarity 100.0% >= 30% (HIGH threshold)"
+  ],
+  "processing": {
+    "status": "OK",
+    "file_type": "pdf",
+    "modality": "text",
+    "pages": 2,
+    "duration_seconds": null,
+    "language": null,
+    "sentences": 41,
+    "chunks": 3,
+    "header_footer_lines_removed": 0,
+    "warnings": []
+  },
+  "score_details": {
+    "assessed_words": 400,
+    "boilerplate_words": 147,
+    "pair_coverage_percentage": {
+      "submission_02.docx": 100.0
+    }
+  }
+}
